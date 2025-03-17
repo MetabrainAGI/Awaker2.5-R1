@@ -7,7 +7,7 @@
 - By training on a 50k mathematical geometry reasoning dataset, we enhanced the mathematical reasoning capabilities of Qwen2.5-VL-7B, achieving performance on MathVista that approaches OpenAI's o1 model. 
 
 ## Performance
-- We conducted evaluations on three commonly used mathematical benchmarks, namely MathVista (Testmini), MathVerse (Testmini & VisionOnly), and WeMath. The scores of other models are sourced from [OpenCompass](https://rank.opencompass.org.cn/leaderboard-multimodal-reasoning/?m=REALTIME).
+- We conducted evaluations on three commonly used mathematical benchmarks, namely MathVista (Testmini), MathVerse (Testmini & Vision_Only), and WeMath. The scores of other models are sourced from [OpenCompass](https://rank.opencompass.org.cn/leaderboard-multimodal-reasoning/?m=REALTIME).
 
 | Models               | Parameters |   Mathvista | Mathverse | WeMath | Avg.|
 | ------------------- | :--------: | :------: | :--------: | :-------: |  :-------: |
@@ -24,7 +24,7 @@
 |InternVL2.5-78B-MPO	|78B |76.6	|43.7	|37.6	|52.6|
 |QVQ-72B-Preview	| 73.4B |70.3	|48.2	|39.0	|52.5|
 |Claude 3.7 Sonnet 20241022	| - |65.3	|46.3	|44.0	|51.8|
-|*Awaker2.5-R1* | 8.29B | 73.9 | 43.1 | 37.6 | 51.5|
+|**Awaker2.5-R1 (ours)** | 8.29B | 73.9 | 43.1 | 37.6 | 51.5|
 |InternVL2.5-38B-MPO	| 38B |73.6	|37.9	|40.1	|50.5|
 |InternVL2.5-38B	| 38B |72.4	|35.7	|42.7	|50.2|
 |InternVL2.5-78B	| 78B |70.6	|39.2	|39.8	|49.8|
