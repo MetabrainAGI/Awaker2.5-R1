@@ -73,24 +73,24 @@ processor = AutoProcessor.from_pretrained(model_path, max_pixels=max_pixels)
 
 messages = [
     {
-                "role": "system",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": SYSTEM_PROMPT
-                    },
-                ],
+        "role": "system",
+        "content": [
+            {
+                "type": "text",
+                "text": SYSTEM_PROMPT
+            },
+        ],
     },
     {
         "role": "user",
         "content": [
             {
                 "type": "image",
-                "image": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg",
+                "image": "/path/to/image",
             },
             {
                 "type": "text", 
-                "text": "Describe this image."
+                "text": "Your question"
             },
         ],
     }
