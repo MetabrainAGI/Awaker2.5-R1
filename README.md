@@ -55,13 +55,13 @@
 
 ```bash
 import torch
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
 
 # Load the base Qwen2-VL model
 model_path = "/path/to/awaker-r1"
-model = Qwen2VLForConditionalGeneration.from_pretrained(
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     model_path, torch_dtype="auto", device_map="auto"
 )
 
